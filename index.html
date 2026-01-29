@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Supa Dupa — Company Portfolio</title>
     <!-- Minimalist typography and layout styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
@@ -20,49 +26,52 @@
     </header>
 
     <main>
-      <!-- Project grid for responsive, breathable layout -->
-      <section class="projects" aria-label="Featured projects">
-        <article class="project-card">
-          <img
-            src="images/project1-logo.png"
-            alt="Northstar Analytics project logo"
-          />
-          <div class="project-content">
-            <h2>Northstar Analytics</h2>
-            <p>
-              A lightweight reporting hub that helps teams surface clean insights in
-              minutes. Built for fast onboarding, accessible dashboards, and
-              confident decision-making.
-            </p>
-            <a
-              href="https://example.com/northstar"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Visit project</a
-            >
-          </div>
-        </article>
+      <!-- Tools list for clean, minimal layout -->
+      <section class="tools" aria-label="Tools">
+        <p class="section-label">Tools</p>
+        <div class="tools-list">
+          <a
+            class="tool-card"
+            href="https://example.com/cmd"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/project1-logo.png" alt="CMD Supply logo" />
+            <div class="tool-text">
+              <h2>CMD Supply</h2>
+              <p>Framer Template Store</p>
+            </div>
+            <span class="tool-arrow" aria-hidden="true">↗</span>
+          </a>
 
-        <article class="project-card">
-          <img
-            src="images/project2-logo.png"
-            alt="Lumen Workspace project logo"
-          />
-          <div class="project-content">
-            <h2>Lumen Workspace</h2>
-            <p>
-              A calm, collaborative workspace for distributed teams to stay aligned.
-              It blends task clarity with elegant communication tools in one
-              focused space.
-            </p>
-            <a
-              href="https://example.com/lumen"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Visit project</a
-            >
-          </div>
-        </article>
+          <a
+            class="tool-card"
+            href="https://example.com/best-websites"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/project2-logo.png" alt="Best Websites logo" />
+            <div class="tool-text">
+              <h2>Best Websites</h2>
+              <p>Website Directory</p>
+            </div>
+            <span class="tool-arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a
+            class="tool-card"
+            href="https://example.com/great-fonts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/project1-logo.png" alt="Great Fonts logo" />
+            <div class="tool-text">
+              <h2>Great Fonts</h2>
+              <p>Font Directory</p>
+            </div>
+            <span class="tool-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
       </section>
     </main>
 
