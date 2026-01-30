@@ -53,8 +53,7 @@ body {
 }
 
 .tools {
-  margin: 0 auto 72px;
-  max-width: 680px;
+  margin-bottom: 72px;
 }
 
 .section-label {
